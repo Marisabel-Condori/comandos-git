@@ -23,3 +23,6 @@ git log
 
 	//// abreviacion para todos los archivos al añadirlos al staging area
 git add -A 
+
+	// comando que abrevia los comandos git add -A + git commit -m: 
+git commit -am "mensaje"
