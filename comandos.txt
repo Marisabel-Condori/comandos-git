@@ -1,0 +1,8 @@
+git config --global user.name "nombre del ususario" //configura el nombre del usuario
+git config --global user.email "email" //configura el e-mail del usuario
+git config --global user.ui true or false
+
+//listado
+git config --global --list
+
+//
