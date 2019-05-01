@@ -19,7 +19,3 @@ git status
 
 	//muestra todos los commits de una rama de trabajo
 git log
-
-
-	//// abreviacion para todos los archivos al añadirlos al staging area
-git add -A 
