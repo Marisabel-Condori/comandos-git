@@ -33,4 +33,15 @@ git commit -am "mensaje"
 	//viaja en el tiempo, de commits a commits
 git checkout "codigo del commit: 95931991c52194ca87373433604a9be61e766353, o master"
 
+	//lista las ramas
+git branch 
+
+	// crea o adiciona una rama
+git branch[nombre de la rama]
+
+	// elimina una rama
+git branch -d [nombre de la rama]
+
+	// unir, combinar 2 ramas, antes situarse en la rama origen
+git merge [nombre de la rama que jalara los datos(en el que se hizo los ultimos cambios)]	
 	
