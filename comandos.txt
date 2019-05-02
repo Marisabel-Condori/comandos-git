@@ -20,6 +20,9 @@ git status
 	//muestra todos los commits de una rama de trabajo
 git log
 
+	//muestra en una sola linea codigo del commit y el comentario
+git log --oneline
+
 
 	//// abreviacion para todos los archivos al añadirlos al staging area
 git add -A 
@@ -29,3 +32,5 @@ git commit -am "mensaje"
 
 	//viaja en el tiempo, de commits a commits
 git checkout "codigo del commit: 95931991c52194ca87373433604a9be61e766353, o master"
+
+	
