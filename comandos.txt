@@ -26,3 +26,6 @@ git add -A
 
 	// comando que abrevia los comandos git add -A + git commit -m: 
 git commit -am "mensaje"
+
+	//viaja en el tiempo, de commits a commits
+git checkout "codigo del commit: 95931991c52194ca87373433604a9be61e766353, o master"
