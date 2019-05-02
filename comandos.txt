@@ -43,5 +43,12 @@ git branch[nombre de la rama]
 git branch -d [nombre de la rama]
 
 	// unir, combinar 2 ramas, antes situarse en la rama origen
-git merge [nombre de la rama que jalara los datos(en el que se hizo los ultimos cambios)]	
+git merge [nombre de la rama que jalara los datos(en el que se hizo los ultimos cambios)]
+
+	//vincula el repositorio del w.a. a git hub
+git remote add origin [copiar url del repositorio]
+
+	//sube el repositorio a git hub
+git push origin master(nombre de la rama)
+ 	
 	
