@@ -55,7 +55,7 @@ git remote -v
 git remote remove
 
 	//sube el repositorio a git hub
-git push origin master(nombre de la rama)
+git push origin [master](nombre de la rama)
 
 	//clonar 
 git clone [url] 	
