@@ -1,0 +1,62 @@
+git config --global user.name "nombre del ususario" //configura el nombre del usuario
+git config --global user.email "email" //configura el e-mail del usuario
+git config --global user.ui true or false
+
+	//listado
+git config --global --list
+
+	//inicia el repositorio
+git init
+
+	//pasa del working directory al staging area, esta listo para subirse al repositorio
+git add "nombre del archivo.extension"
+
+	//sube al repositorio desde el staging area
+git commit -m "comentario"
+
+	//ver estado. compara el w.d. con el repositorio, si hay un cambio los archivos modificados(rojo)
+git status
+
+	//muestra todos los commits de una rama de trabajo
+git log
+
+	//muestra en una sola linea codigo del commit y el comentario
+git log --oneline
+
+
+	//// abreviacion para todos los archivos al añadirlos al staging area
+git add -A 
+
+	// comando que abrevia los comandos git add -A + git commit -m: 
+git commit -am "mensaje"
+
+	//viaja en el tiempo, de commits a commits
+git checkout "codigo del commit: 95931991c52194ca87373433604a9be61e766353, o master"
+
+	//lista las ramas
+git branch 
+
+	// crea o adiciona una rama
+git branch[nombre de la rama]
+
+	// elimina una rama
+git branch -d [nombre de la rama]
+
+	// unir, combinar 2 ramas, antes situarse en la rama origen
+git merge [nombre de la rama que jalara los datos(en el que se hizo los ultimos cambios)]
+
+	//vincula el repositorio del w.a. a git hub
+git remote add origin [copiar url del repositorio]
+
+	//lista las vinculaciones
+git remote -v
+
+	//remueve una vinculacion
+git remote remove
+
+	//sube el repositorio a git hub
+git push origin [master](nombre de la rama)
+
+	//clonar 
+git clone [url] 	
+	
