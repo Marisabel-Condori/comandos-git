@@ -48,7 +48,21 @@ git merge [nombre de la rama que jalara los datos(en el que se hizo los ultimos 
 	//vincula el repositorio del w.a. a git hub
 git remote add origin [copiar url del repositorio]
 
+<<<<<<< HEAD
 	//sube el repositorio a git hub
 git push origin master(nombre de la rama)
  	
+=======
+	//lista las vinculaciones
+git remote -v
+
+	//remueve una vinculacion
+git remote remove
+
+	//sube el repositorio a git hub
+git push origin master(nombre de la rama)
+
+	//clonar 
+git clone [url] 	
+>>>>>>> rama2
 	
