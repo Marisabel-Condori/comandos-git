@@ -65,4 +65,14 @@ git push origin master(nombre de la rama)
 	//clonar 
 git clone [url] 	
 >>>>>>> rama2
+
+// comandos que adiciono alejandro
+//////////////////////////////////
+	// para trabajar en equipo
+	// Se Bajan los cambios existentes en GitHub
+git fetch origin
+	// Se actualiza con tu repositorio local lo que acabas de bajar que se puso en origin/master
+git merge origin/master
 	
+///////*** si se quiere combinar ambos comandos en uno****////
+git pull
