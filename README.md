@@ -1,4 +1,4 @@
 # comandos-git
 describe los comandos git con sus funciones
 
-<h1>Heading level 1</h1>
+<h1>titulo 1</h1>
